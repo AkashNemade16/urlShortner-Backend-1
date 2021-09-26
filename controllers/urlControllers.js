@@ -52,7 +52,7 @@ export const createPost = async (req, res) => {
     if (newUrl) {
         res.json(newUrl)
     } else {
-        const shortenedUrl = "https://localhost:5000" + "/" + short
+        const shortenedUrl = "https://urlshort-backend.herokuapp.com" + "/" + short
         const newUrl = new shortUrls({ full, short, shortenedUrl, ownedBy });
         await newUrl.save();
 
