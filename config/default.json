@@ -1,4 +1,0 @@
-{
-    "mongoURI":"mongodb+srv://AkashNemade:AkashNemade@urlshortner.rkw8v.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "jwtSecret":"url_shortSecretJwt"
-}
